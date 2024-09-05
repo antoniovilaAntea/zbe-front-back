@@ -10,8 +10,7 @@
 //   nombre: string;
 // }
 // const database_url =
-//   "postgresql://user:4Vi7LuCWSalh@ep-shiny-union-a2ewbwt8.eu-central-1.aws.neon.tech/zbeLCG?sslmode=require";
-// const client = new Client({
+//   
 //   connectionString: database_url,
 // });
 
