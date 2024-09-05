@@ -1,0 +1,22 @@
+.graficas {
+  button {
+    color: #f7f7f7;
+    background-color: #6092c5;
+    border: 0.5px solid #1976d2;
+    border-radius: 5px;
+    height: 2.5em;
+    padding: 0.5em;
+    margin: 2em;
+    cursor: pointer;
+  }
+}
+
+.mapa {
+  padding-top: 1em;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

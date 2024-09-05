@@ -1,0 +1,48 @@
+.monitorizacion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.monitorizacion__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.monitorizacion__row div {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.monitorizacion__row.ln,
+.monitorizacion__row.le,
+.monitorizacion__row.ld,
+.monitorizacion__row.all {
+  width: 33.333%;
+  height: 400px;
+  position: relative;
+  outline-style: none;
+}
+.monitorizacion__row .estaciones {
+  font-size: 15px;
+  color: #1976d2;
+  text-align: left;
+  ul {
+    margin-bottom: 2em;
+  }
+}
+.monitorizacion__texto {
+  display: flex;
+  width: 90%;
+  margin-bottom: 20px;
+  p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 15px;
+    width: 33.33%;
+  }
+}

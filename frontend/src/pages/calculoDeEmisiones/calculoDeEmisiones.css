@@ -1,0 +1,116 @@
+#th,
+th {
+  background-color: #bdd7ee;
+  color: #53a5dc;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+#td,
+#tdTitulo,
+td {
+  padding: 8px;
+  text-align: left;
+  font-size: 14px;
+  border: 0.2px solid #53a5dc;
+  color: #53a5dc;
+}
+
+#tdTitulo {
+  font-weight: bold;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+h4 {
+  color: #53a5dc;
+}
+
+.calculo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+  width: 100%;
+}
+
+.calculo__valores {
+  margin-right: 2.5em;
+  margin-left: 2em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculo__calculadora {
+  width: 30%;
+  .info {
+    font-size: 15px;
+    margin-top: 0 !important;
+    color: #769fbd;
+  }
+}
+#teqTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#teqTable th,
+#teqTable td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+#teqTable th {
+  background-color: #e3ecf0;
+}
+
+#tablaSuperficie tr:hover {
+  background-color: #ffd966;
+}
+#teqTable input[type="text"] {
+  width: 100%;
+  text-align: center;
+}
+#totalTeq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #bdd7ee;
+  color: #666;
+  font-size: 22px;
+  padding: 7px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.MuiInputBase-root {
+  margin-right: 1em;
+}
+#standard-basic {
+  color: #e3ecf0;
+  text-align: end;
+  font-size: 22px;
+}
+.MuiInput:after {
+  border-bottom-color: "yellow";
+}
+#td input {
+  border: none;
+  border-bottom: 1px solid #53a5dc;
+  color: #53a5dc;
+  text-align: center;
+  width: 90%;
+  background-color: #f7f7f7;
+}
+
+#th.vehiculos {
+  text-align: center;
+}

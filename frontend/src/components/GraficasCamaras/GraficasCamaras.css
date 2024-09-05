@@ -1,0 +1,43 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 4em;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  .elemento {
+    width: 12em;
+    height: 12em;
+  }
+}
+.elemento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.elemento h4 {
+  min-height: 3em;
+  margin: 0;
+}
+
+.pie-chart-container {
+  flex: 1;
+}
+.map .elemento-mapa {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.elemento canvas,
+.elemento-mapa canvas {
+  max-width: 75%;
+  max-height: 75%;
+}

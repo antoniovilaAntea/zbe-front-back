@@ -1,0 +1,152 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .tipo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    label {
+      color: rgb(83, 165, 220);
+      font-size: 20px;
+      margin-right: 3em;
+    }
+    select {
+      background-color: #f7f7f7;
+      border: 0.5px solid #53a5dc;
+      color: #53a5dc;
+      cursor: pointer;
+      padding: 0.25em;
+    }
+  }
+  .cantidad {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    label {
+      color: rgb(83, 165, 220);
+      font-size: 20px;
+    }
+    input {
+      width: 100px;
+      background-color: #fcfcfc;
+      border: 0.5px solid #383c41;
+    }
+  }
+  .botones {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    button {
+      color: #f7f7f7;
+      background-color: #6092c5;
+      border: 0.5px solid #1976d2;
+      border-radius: 5px;
+      height: 2.5em;
+      padding: 0.5em;
+      margin: 2em;
+      cursor: pointer;
+    }
+  }
+}
+
+.tablas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2em;
+
+  .introducir {
+    margin-right: 2em;
+    th {
+      text-align: center;
+    }
+    td input {
+      border: none;
+      border-bottom: 1px solid #53a5dc;
+      color: #53a5dc;
+      text-align: center;
+      width: 90%;
+      background-color: #f7f7f7;
+    }
+  }
+  .resultados {
+    th {
+      text-align: center;
+    }
+    margin-right: 2em;
+    .val {
+      text-align: center;
+    }
+  }
+  .consumo {
+    th {
+      text-align: center;
+    }
+    margin-right: 2em;
+    .val {
+      text-align: center;
+    }
+  }
+}
+.formulario .archivo {
+  width: 30%;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #6092c5;
+  border: 1px solid #6092c5;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  label {
+    font-size: 13px;
+  }
+}
+input[type="file"] {
+  background-color: transparent;
+  width: 20vh;
+}
+.archivo input[type="file"] {
+  padding: 5px 0 0 15px;
+  font-size: 13px;
+
+  &::-webkit-file-upload-button {
+    display: none;
+  }
+  &::file-selector-button {
+    display: none;
+  }
+}
+.archivo:hover {
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  border: 1px solid #495b86;
+  cursor: pointer;
+}
+.archivo :hover {
+  cursor: pointer;
+}
+.seleccionCamara {
+  font-weight: 100;
+  color: #53a5dc;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}

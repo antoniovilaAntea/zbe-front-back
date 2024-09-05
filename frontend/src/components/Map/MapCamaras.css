@@ -1,0 +1,12 @@
+.leaflet-div-icon {
+  background: #555;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  user-select: none;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  max-width: none;
+}

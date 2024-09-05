@@ -1,0 +1,9 @@
+.superficie {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#tablaSuperficie {
+  width: 30%;
+}

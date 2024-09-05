@@ -1,0 +1,42 @@
+.naturaleza {
+  display: flex;
+  align-items: center;
+}
+
+.naturaleza__graphs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+.naturaleza__graphs__first__two {
+  margin-left: 2em;
+  p {
+    background-color: #203864;
+    color: #ffffff;
+  }
+}
+
+.naturaleza__graphs__first__one {
+  margin-left: 2em;
+  p {
+    background-color: #7030a0;
+    color: #ffffff;
+  }
+}
+.naturaleza__graphs__first {
+  display: flex;
+}
+.naturaleza__graphs__second {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  p {
+    background-color: #7f6000;
+    color: #ffffff;
+    width: 600px;
+  }
+}
+#divImagen {
+  width: 25%;
+}
