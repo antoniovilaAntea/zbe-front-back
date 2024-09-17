@@ -52,12 +52,15 @@ const Camaraszbe = () => {
 
   const handleCallCameras = async () => {
     try {
-      const response = await fetch("http://localhost:3001/api/camaras", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        "https://web-zbe-backend2.vercel.app/api/camaras",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
         const data = await response.json();
@@ -70,7 +73,7 @@ const Camaraszbe = () => {
     }
     try {
       const response = await fetch(
-        "http://localhost:3001/api/contaminacioncamaras",
+        "https://web-zbe-backend2.vercel.app/api/contaminacioncamaras",
         {
           method: "GET",
           headers: {

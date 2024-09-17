@@ -149,7 +149,7 @@ export const CalculadoraParticulas = ({ particulas }: Props) => {
   const totalcontaminacion = useCallback(async () => {
     try {
       const response = await fetch(
-        "http://localhost:3001/api/contaminacionzona",
+        "https://web-zbe-backend2.vercel.app/api/contaminacionzona",
         {
           method: "GET",
           headers: {
@@ -178,7 +178,7 @@ export const CalculadoraParticulas = ({ particulas }: Props) => {
   }) => {
     try {
       const response = await fetch(
-        "http://localhost:3001/api/contaminacioncamaras",
+        "https://web-zbe-backend2.vercel.app/api/contaminacioncamaras",
         {
           method: "POST",
           headers: {
@@ -402,12 +402,15 @@ export const CalculadoraParticulas = ({ particulas }: Props) => {
   ]);
   const handleCallCameras = async () => {
     try {
-      const response = await fetch("http://localhost:3001/api/camaras", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        "https://web-zbe-backend2.vercel.app/api/camaras",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
         const data = await response.json();
